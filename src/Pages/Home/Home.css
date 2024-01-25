@@ -1,0 +1,14 @@
+.dashboard-hello {
+    width: 100vw;
+    background-color: #A4D8AD;
+    height: 100px;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    align-items: end;
+}
+
+.dashboard-hello div {
+    font-size: 40px;
+    color: white;
+}

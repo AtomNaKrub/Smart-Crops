@@ -1,0 +1,20 @@
+.PlotButton {
+    width: 50px;
+    background-color: #A4D8AD;
+    margin: 0 auto;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.PlotButton div {
+    margin-top: 2px;
+    color: white;
+}
+
+.PlotButton:hover, .PlotButton div:hover {
+    background-color: #58745d;
+    color: rgb(158, 158, 158);
+}

@@ -1,0 +1,23 @@
+.select-plot-container {
+    margin: 0 auto;
+    display: block;
+}
+
+.select-plot-container .select-plot-upper {
+    display: block;
+    text-align: left;
+}
+
+.select-plot-container .select-plot-upper .select-plot-upper-container{
+    display: inline-flex;
+    align-items: center;
+}
+
+.select-plot-container .select-plot-upper .select-plot-upper-text {
+    font-size: xx-large;
+    color: black;
+}
+
+.select-plot-container .select-plot-upper .select-plot-upper-arrow {
+    padding-top: 5px;
+}

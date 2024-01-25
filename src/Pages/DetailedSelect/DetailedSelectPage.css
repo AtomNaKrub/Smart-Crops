@@ -1,0 +1,117 @@
+.DetailedCard {
+    background-color: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    display: block;
+    width: 800px;
+    padding: 10px;
+    margin: 15px auto;
+}
+
+
+.DetailedCard .upper-detailedcard {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.DetailedCard .upper-detailedcard div {
+    display: flex;
+    margin-left: 15px;
+}
+
+.DetailedCard .upper-detailedcard .upper-detailedcard-text {
+    font-size: x-large;
+    margin-top: 5px;
+}
+
+.DetailedCard .upper-detailedcard .upper-detailedcard-arrow {
+    background-color: #A4D8AD;
+    padding: 5px;
+    margin-top: 5px;
+    padding-top: 2px;
+    padding-right: 18px;
+}
+
+.DetailedCard .upper-detailedcard .upper-detailedcard-arrow:hover, .detailedCard .upper-detailedcard .upper-detailedcard-arrow div:hover  {
+    background-color: #58745d;
+    color: rgb(158, 158, 158);
+}
+
+.DetailedCard .upper-detailedcard .upper-detailedcard-arrow div {
+    padding-top: 3px;
+    color: white;
+}
+
+.DetailedCard .lower-detailedcard {
+    border-top: 1px solid #D9D9D9;
+    margin-top: 15px;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.DetailedCard .lower-detailedcard .lower-detailedcard-img {
+    display: flex;
+    flex-direction: column;
+}
+
+.DetailedCard .lower-detailedcard .lower-detailedcard-img div {
+    width: 175px;
+    height: 175px;
+}
+
+.DetailedCard .lower-detailedcard .lower-detailedcard-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.DetailedCard .section3-detailed {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-top: 1px solid #d9d9d9;
+    margin-top: 15px;
+    padding-top: 15px;
+    margin-bottom: 15px;
+}
+
+.section3-detailed-info-header {
+    font-size: large;
+}
+
+.section3-detailed-info-lists {
+    text-align: left;
+}
+
+.DetailedCard .section3 .section3-detailed-info div {
+    font-size: x-large;
+}
+
+.section4-detailed {
+    border-top: 1px solid #D9D9D9;
+    padding-top: 15px;
+    margin-bottom: 20px;
+}
+
+.section4-detailed .section4-detailed-form {
+    display: flex;
+    align-items: end;
+    text-align: left;
+    justify-content: center;
+}
+
+.section4-detailed .section4-detailed-form div {
+    margin: 0 5px;
+}
+
+.section4-detailed-form-button button {
+    background-color: #A4D8AD;
+    padding: 5px;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+}
+
+
+

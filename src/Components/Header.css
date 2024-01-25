@@ -1,0 +1,39 @@
+.header-navbar {
+    width: 100vw;
+    background-color: #A4D8AD;
+    height: 150px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-navbar .header-navbar-logo {
+    font-size: 40px;
+    color: white;
+    margin-left: 50px;
+}
+
+.header-navbar .header-navbar-content ul {
+    display: flex;
+    list-style-type: none;
+    margin-right: 287px;
+}
+
+.header-navbar .header-navbar-content ul li {
+    font-size: xx-large;
+    margin-left: 100px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #679289;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.header-navbar .header-navbar-account {
+    font-size: x-large;
+    margin-right: 50px;
+}
+

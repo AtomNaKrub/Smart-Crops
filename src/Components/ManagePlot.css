@@ -1,0 +1,100 @@
+.ManageCard {
+    background-color: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    display: block;
+    width: 800px;
+    padding: 10px;
+    margin: 15px auto;
+}
+
+
+.ManageCard .upper-managecard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.ManageCard .upper-managecard div {
+    display: flex;
+    margin-left: 15px;
+}
+
+.ManageCard .upper-managecard .upper-managecard-text {
+    font-size: x-large;
+    margin-top: 5px;
+}
+
+.ManageCard .upper-managecard .upper-managecard-arrow {
+    background-color: #A4D8AD;
+    padding: 5px;
+    margin-top: 5px;
+    padding-right: 20px;
+}
+
+.ManageCard .upper-managecard .upper-managecard-arrow:hover, .ManageCard .upper-managecard .upper-managecard-arrow div:hover  {
+    background-color: #58745d;
+    color: rgb(158, 158, 158);
+}
+
+.ManageCard .upper-managecard .upper-managecard-arrow div {
+    padding-top: 3px;
+    color: white;
+}
+
+.ManageCard .lower-managecard {
+    border-top: 1px solid #D9D9D9;
+    margin-top: 15px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ManageCard .lower-managecard .lower-managecard-img {
+    display: flex;
+    flex-direction: column;
+}
+
+.ManageCard .lower-managecard .lower-managecard-img div {
+    width: 175px;
+    height: 175px;
+}
+
+.ManageCard .lower-managecard .lower-managecard-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.ManageCard .section3 {
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid #d9d9d9;
+    margin-top: 50px;
+    padding-top: 15px;
+    margin-bottom: 15px;
+}
+
+.ManageCard .section3 .section3-info div {
+    font-size: x-large;
+}
+
+.button-section {
+    margin-top: 35px;
+    margin-bottom: 50px;
+}
+
+.button-section .button-section-info {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.button-section .button-section-info .button-section-info-button {
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 5px 25px;
+    display: flex;
+    padding-top: 10px;
+    
+}
