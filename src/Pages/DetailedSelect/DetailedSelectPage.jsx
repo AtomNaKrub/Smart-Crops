@@ -47,8 +47,10 @@ export default function DetailedSelectPage() {
       }
     })
     const updatePlot = updateDoc(doc(db, 'Crops-Management', plotId),{
-      airHumidity: plant.airHumidity,
-      soilMoisture: plant.soilMoisture,
+      setHumidity: plant.airHumidity,
+      setSoilMoisture: plant.soilMoisture,
+      setLight: plant.Light,
+      setTemp: plant.temperature,
       title: plant.title
     })
     const addPlotFirebase = setDoc(doc(db, 'Crops-Code', plotId),{

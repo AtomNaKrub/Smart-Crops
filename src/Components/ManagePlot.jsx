@@ -42,7 +42,9 @@ export default function ManagePlot() {
             next: doc => {
                 setPlot(doc.data())
                 setWaterState(doc.data().relayWater)
+                setWaterState(prevState => !prevState)
                 setLightState(doc.data().relayLight)
+                setLightState(prevState => !prevState)
             },
             error: err => {
               console.log(err)
@@ -66,14 +68,12 @@ export default function ManagePlot() {
     }
 
     const handleWater = async () => {
-        setWaterState(prevState => !prevState)
         await updateDoc(doc(db, 'Crops-Management',id), {
             relayWater: waterState
           });
     }
 
     const handleLight = async () => {
-        setLightState(prevState => !prevState)
         await updateDoc(doc(db, 'Crops-Management',id), {
             relayLight: lightState
           });
@@ -86,7 +86,7 @@ export default function ManagePlot() {
             <div className="upper-managecard">
                 <div className="upper-managecard-text">Plot {plot.id} ({plot.title})</div>
                 <div>
-                    <Link to={``}><div className="upper-managecard-arrow"><div><IoMdSettings size='2em' /></div></div></Link>
+                    <Link to={`/manage/setting/${id}`}><div className="upper-managecard-arrow"><div><IoMdSettings size='2em' /></div></div></Link>
                     <Link to={``}><div className="upper-managecard-arrow"><div onClick={handleDelete}><FaTrashAlt size='2em' /></div></div></Link>
                 </div>
             </div>

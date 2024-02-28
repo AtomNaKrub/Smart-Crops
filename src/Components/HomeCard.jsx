@@ -45,11 +45,11 @@ export default function HomeCard({ id }) {
           </div>
           <div>
             <CiTempHigh size='5em' />
-            <div className="lower-homecard-text">{plant.temp}</div>
+            <div className="lower-homecard-text">{plant.summaryTemp}</div>
           </div>
           <div>
             <CiSun size='5em' />
-            <div className="lower-homecard-text">{plant.soilMoisture}</div>
+            <div className="lower-homecard-text">{plant.summaryLight}</div>
           </div>
         </div>
       </div>) : <></>}

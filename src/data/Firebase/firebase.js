@@ -3,12 +3,12 @@ import 'firebase/firestore'
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDkzdA3GDXWfGeKC0Xqsl8SA9RhPPuS5VE",
-  authDomain: "smart-crops.firebaseapp.com",
-  projectId: "smart-crops",
-  storageBucket: "smart-crops.appspot.com",
-  messagingSenderId: "63375938055",
-  appId: "1:63375938055:web:a82476c6d3708365ebd0a2"
+  apiKey: "AIzaSyA-XeiNIt9bA1kq1cdSQbV46IeAJ_FjGYM",
+  authDomain: "espfirestore-499a1.firebaseapp.com",
+  projectId: "espfirestore-499a1",
+  storageBucket: "espfirestore-499a1.appspot.com",
+  messagingSenderId: "610310414011",
+  appId: "1:610310414011:web:5c3d058bf2ba461f31d39e"
 };
 
 // Initialize Firebase

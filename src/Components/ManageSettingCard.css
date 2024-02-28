@@ -1,0 +1,70 @@
+.ManageSettingCard {
+    background-color: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    margin: 20px auto;
+    display: block;
+    width: 900px;
+    padding: 10px;
+}
+
+.ManageSettingCard .upper-ManageSettingcard {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.ManageSettingCard .upper-ManageSettingcard .upper-ManageSettingcard-text {
+    font-size: x-large;
+}
+
+.ManageSettingCard .upper-ManageSettingcard .upper-ManageSettingcard-arrow {
+    background-color: #A4D8AD;
+    padding: 0 7px;
+    padding-top: 2px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.ManageSettingCard .upper-ManageSettingcard .upper-ManageSettingcard-arrow:hover, .ManageSettingCard .upper-ManageSettingcard .upper-ManageSettingcard-arrow div:hover {
+    background-color: #58745d;
+    color: rgb(158, 158, 158);
+}
+
+.ManageSettingCard .lower-ManageSettingcard {
+    border-top: 1px solid #D9D9D9;
+    margin-top: 15px;
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ManageSettingCard .lower-ManageSettingcard div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lower-ManageSettingcard-input {
+    width: 65%;
+    text-align: center;
+    font-size: medium;
+}
+
+.ManageSettingCard .lower-ManageSettingcard .lower-ManageSettingcard-text {
+    font-size: x-large;
+}
+
+.button-ManageSettingcard {
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+
+.button-ManageSettingcard button {
+    padding: 10px;
+    font-size: large;
+    background-color: #A4D8AD;
+    color: white;
+    border-radius: 5px;
+    border: 0;
+}
